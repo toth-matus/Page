@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title> Matus's Page </title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body id="stranka">
+    <header>
+      <nav>
+        <ul>
+          <a  class="nav-links" href="index.html" title="Main Page">  Main Page </a>
+          <a  class="nav-links" href="SubPage1.html" title="My Work">  My Work </a>
+          <a  class="nav-links" href="SubPage2.html" title="My Political Affiliations"> My Political Affiliations </a>
+          <a  class="nav-links" href="SubPage3.html" title="Binary Search"> Binary Search </a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Binary Search</h2>
+      <p>It is one of the most useful pieces of code, not necesarily, because I use it a lot, but becease it was my first programm I struggled with and found out about O(log N)</p>
+      <pre>
+        <code>
+def bin_search(pole,x):
+    min=0
+    maxx=len(pole)-1
+    mid=(min+max)//2
+    while min &lt; max:
+        if x &gt; pole[mid]:
+            min=mid+1
+            mid=(min+maxx)//2
+        if x &lt; pole[mid]:
+            max=mid-1
+            mid=(min+maxx)//
+        if x==pole[mid]:
+            x==pole[mid]
+            return(mid)
+    return(-1)
+        </code>
+      </pre>
+    </main>
+
+    <footer>
+      <hr>
+      This page is maintained by Matúš Tóth, with improvements to my page you can contact me <span class="contact">here</span>
+    </footer>
+
+  </body>
+</html>
