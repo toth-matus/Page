@@ -15,7 +15,7 @@ p {
   }
 
 nav {
-      top:-0.5%;
+      top:4px;
       left:0;
       height: 50px;
       width: 100%;
@@ -46,7 +46,7 @@ hr  {
                             }
 .nav-links  {
               color:#b0b0b0;
-              margin: 0px 14px;
+              margin: 0px 14px 0px 14px;
             }
 
 .contact,.links  {
