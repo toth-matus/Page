@@ -4,13 +4,9 @@ h1,h2,h3,.links,.contact,.nav-links {
                                       padding:0;
                                     }
 
-h1  {
-    font-size: 24px;
-    }
+h1{font-size: 24px;}
 
-h2  {
-    font-size: 20px;
-    }
+h2{font-size: 20px;}
 
 h3,p,footer,.links,.contact {
                       font-size: 16px;
