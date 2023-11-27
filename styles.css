@@ -69,7 +69,7 @@ header {
 
 #stranka  {
             width: 90%;
-            margin-left: 5%;
+            margin-left: -5%;
             position: absolute;
             padding-top:55px;
             background-color: #1a1b1c;
