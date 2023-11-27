@@ -16,9 +16,9 @@ p {
 
 nav {
       top:0px;
-      left:-1%;
+      left:0px;
       height: 55px;
-      width: 100%;
+      width: 110%;
       position:fixed;
       background-color: #121314;
       text-align:center;
@@ -43,12 +43,23 @@ header {
 
 
 
-.nav-links,.links,.contact {
-                            text-decoration: none;
-                            }
+.nav-links,.nav-links-start,.nav-links-end,.links,.contact {
+                                                            text-decoration: none;
+                                                            }
+.nav-links-start,.nav-links-start,.nav-links {
+                                              font-size: 18px
+                                              }
 .nav-links  {
               color:#b0b0b0;
               margin: 0px 14px 0px 14px;
+            }
+.nav-links-end  {
+              color:#b0b0b0;
+              margin: 0px 0px 0px 14px;
+            }
+.nav-links-start  {
+              color:#b0b0b0;
+              margin: 0px 14px 0px 0px;
             }
 
 .contact,.links  {
