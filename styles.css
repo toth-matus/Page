@@ -1,82 +1,97 @@
-h1,h2,h3,.links,.contact,.nav-links,.nav-links-start..nav-links-end {
-                                                                      font-weight: bold;
-                                                                      margin:0;
-                                                                      padding:0;
-                                                                      }
+h1,h2,h3,.links,.contact,.nav-links{
+  font-weight: bold;
+  margin:0;
+  padding:0;
+}
 
-h1{font-size: 24px;}
+h1{
+  font-size: 24px;
+}
 
-h2{font-size: 20px;}
+h2{
+  font-size: 20px;
+}
 
-h3,p,footer,.links,.contact {font-size: 16px;}
+h3,p,footer,.links,.contact {font-size: 16px;
+}
+
 p {
-    margin-top:0;
-    padding-top:0
-  }
+  margin-top:0;
+  padding-top:0
+}
 
-nav {
-      top:0px;
-      left:0px;
-      height: 55px;
-      width: 100%;
-      position:fixed;
-      background-color: #121314;
-      text-align:center;
-      vertical-align: middle;
-      font-size: 18px;
-    }
+nav{
+  top:0px;
+  left:0px;
+  height: 55px;
+  width: 100%;
+  position:fixed;
+  background-color: #121314;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-footer  {
-          font-style: italic;
-          text-align: right;
-        }
+footer{
+  font-style: italic;
+  text-align: right;
+}
 
-hr  {
-      visibility: visible;
-      border: 1px solid;
-      color: #121314;
-    }
+hr{
+  visibility: visible;
+  border: 1px solid;
+  color: #121314;
+}
 
-header {
-        margin-bottom: 5px;
+header{
+  margin-bottom: 5px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-ul{
+  padding-bottom: 0;
 }
 
 
 
+.nav-links,.links,.contact{
+  text-decoration: none;
+}
+.nav-links{
+  font-size: 18px;
+  color:#b0b0b0;
+  margin: 0px 14px 0px 14px;
+}
 
+.contact,.links{
+  color:#b08080;
+}
 
-.nav-links,.links,.contact {
-                            text-decoration: none;
-                          }
-.nav-links {
-            font-size: 18px;
-            color:#b0b0b0;
-            margin: 0px 14px 0px 14px;
-            padding-top: 10px;
-            }
+.contact:hover{
+  color: #1a1b1c;
+}
 
-.contact,.links  {
-                    color:#b08080;
-                  }
+.Antifa:hover::after{
+  content:", exept fascists,"
+}
 
-.contact:hover  {
-                  color: #1a1b1c;
-                }
+.dates{
+  font-style: italic;
+  text-align: left;
+}
 
-.Antifa:hover::after  {
-                        content:", exept fascists,"
-                      }
-.dates  {
-          font-style: italic;
-          text-align: left;
-       }
-
-#stranka  {
-            width: 90%;
-            margin-left: 5%;
-            position: absolute;
-            padding-top:55px;
-            background-color: #1a1b1c;
-            color:#b0b0b0;
-            font-family: arial
-          }
+#stranka{
+  width: 90%;
+  margin-left: 5%;
+  position: absolute;
+  padding-top:55px;
+  background-color: #1a1b1c;
+  color:#b0b0b0;
+  font-family: arial
+}
