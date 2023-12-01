@@ -4,7 +4,6 @@ def Prime_Factorization(x):
     exponents=[]
     i=2
     while z>1:
-        print(i)
         while z%i==0:
             if i in primes:
                 exponents[primes.index(i)]+=1
